@@ -1,26 +1,10 @@
 {
     "name": "nelmio/api-doc-bundle",
-    "description": "Generates documentation for your REST API from annotations",
+    "description": "Generates documentation for your REST API from annotations - with custom request headers",
     "keywords": ["api", "documentation", "doc", "rest"],
     "type": "symfony-bundle",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nelmio",
-            "homepage": "http://nelm.io"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://github.com/nelmio/NelmioApiDocBundle/contributors"
-        }
-    ],
     "autoload": {
         "psr-0": { "Nelmio\\ApiDocBundle": "" }
     },
-    "target-dir": "Nelmio/ApiDocBundle",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.9.x-dev"
-        }
-    }
+    "target-dir": "Nelmio/ApiDocBundle"
 }
